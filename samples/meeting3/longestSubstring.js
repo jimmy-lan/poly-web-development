@@ -16,5 +16,5 @@
  * then think about ways to optimize it.
  */
 exports.longestSubstring = (s) => {
-
+  
 }
