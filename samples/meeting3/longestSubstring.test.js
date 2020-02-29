@@ -13,7 +13,7 @@ describe('longestSubstring', () => {
     expect(longestSubstring("aaaaa")).toBe(1);
   });
 
-  test('returns "3 when s = "babcbabb"', () => {
+  test('returns 3 when s = "babcbabb"', () => {
     expect(longestSubstring("babcbabb")).toBe(3);
   });
 
