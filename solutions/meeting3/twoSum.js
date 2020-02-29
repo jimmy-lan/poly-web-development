@@ -22,9 +22,7 @@ exports.twoSum = (arr=[], target=0) => {
   */
   let seenElements = {};
   for (el of arr) {
-    if (seenElements[target-el]) {
-      return true;
-    }
+    if (seenElements[target-el]) return true;
     seenElements[el] = true;
   }
   return false;
