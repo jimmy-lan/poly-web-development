@@ -14,7 +14,7 @@ describe('twoSum', () => {
   });
 
   test('returns true for [-3, -1, -9, -8, -3] with target -10', () => {
-    expect(twoSum([-3, -1, -9, -8, -3])).toBeTruthy();
+    expect(twoSum([-3, -1, -9, -8, -3], -10)).toBeTruthy();
   });
 
   test('returns false for [] with target 0', () => {
