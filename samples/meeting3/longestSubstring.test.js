@@ -17,11 +17,19 @@ describe('longestSubstring', () => {
     expect(longestSubstring("babcbabb")).toBe(3);
   });
 
-  test('returns 5 when s = "abcbxyzrx"', () => {
-    expect(longestSubstring("abcbxyzrx")).toBe(5);
+  test('returns 6 when s = "abcbxyzrx"', () => {
+    expect(longestSubstring("abcbxyzrx")).toBe(6);
   });
 
   test('returns 2 when s = "bbbbbab"', () => {
     expect(longestSubstring("bbbbbab")).toBe(2);
-  })
+  });
+
+  test('returns 3 when s="dvdf"', () => {
+    expect(longestSubstring("dvdf")).toBe(3);
+  });
+
+  test('returns 3 when s = "pwwkew"', () => {
+    expect(longestSubstring("pwwkew")).toBe(3);
+  });
 });
