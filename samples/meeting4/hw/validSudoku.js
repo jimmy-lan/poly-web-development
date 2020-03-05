@@ -16,6 +16,8 @@
  * 
  * Note: if this description is not clear enough for you to solve the problem,
  * recall our discussion during meeting 4.
+ *
+ * Requirement: Design an algorithm that runs as efficient as possible.
  * 
  * @param {character[][]} board
  * @return {boolean}
