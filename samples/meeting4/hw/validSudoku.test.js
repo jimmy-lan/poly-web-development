@@ -1,8 +1,8 @@
 const { validSudoku } = require('./validSudoku');
 
 describe('valid sudoku', () => {
-  console.log('This is a basic test suit. Passing this test suit does not ' + 
-  'mean that your solution is correct. We will discuss more in class.');
+  console.log('This is a basic test suite. Passing this test suite does not ' + 
+  'mean that your solution is correct. We will discuss more in our meeting.');
 
   test('should return true on a valid board', () => {
     let board = [
