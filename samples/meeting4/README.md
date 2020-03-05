@@ -20,8 +20,8 @@ Each task below should take you 1 hour or less to complete. There are 5 recommen
 
 3. Generate ssh key for your github: https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf (Optional Task)
 
-4. Coding problem (to be posted)
+4. Coding problem (valid sudoku)
 
-5. Coding problem (to be posted)
+5. Coding problem (valid sudoku)
 
 6. Edit the project that we completed to a site of your choice - add some pages, change fonts and colours... Have fun!
