@@ -20,8 +20,6 @@
  * @param {character[][]} board
  * @return {boolean}
  */
-var validSudoku = function (board) {
+exports.validSudoku = function (board) {
 
 }
-
-exports.validSudoku;
