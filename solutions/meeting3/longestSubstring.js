@@ -20,7 +20,7 @@
  * then think about ways to optimize it.
  */
 exports.longestSubstring = (s) => {
-  let i = 0;
+  let i = 0; 
   let j = 0;
   let result = 0;
   let n = s.length;
@@ -35,6 +35,5 @@ exports.longestSubstring = (s) => {
       result = Math.max(result, j - i);
     }
   }
-
   return result;
 }
